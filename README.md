@@ -10,7 +10,7 @@ All screen size are handled, working in all browsers.
 
 For the deployement I built the project with the `yarn build` commande and I deployed with Firebase, here the documentation for hosting and deploying your app in Firebase : https://firebase.google.com/docs/hosting/quickstart.
 
-![screencapture-localhost-3000-organisms-ImageSlider-2022-08-17-17_42_17](https://user-images.githubusercontent.com/52780772/185183927-b99536cb-42ef-45da-a349-7652f45c66ce.png)
+![gloria_theos](https://github.com/user-attachments/assets/3bdf88b9-82e2-4337-bc1c-aa97204fdce2)
 
 ## How to run
 
