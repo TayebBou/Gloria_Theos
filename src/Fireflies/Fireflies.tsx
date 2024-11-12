@@ -90,22 +90,12 @@ const Fireflies: FC = () => {
     <>
       {fireflies.map((firefly, i) => (
         <Fragment key={i}>
-          <mesh ref={firefly.meshRef} position={firefly.position}>
-            <Sphere args={[sizeOfFireFlies]} />
-            <meshStandardMaterial
-              color="white"
-              transparent
-              emissive="white"
-              emissiveIntensity={1}
-            />
-          </mesh>
-          <pointLight
-            ref={firefly.lightRef}
-            color="white"
-            intensity={2.5}
-            distance={2}
-            decay={2}
+          <Sphere
+            args={[sizeOfFireFlies]}
+            ref={firefly.meshRef}
+            position={firefly.position}
           />
+          <pointLight ref={firefly.lightRef} intensity={2.5} distance={2} />
         </Fragment>
       ))}
     </>
